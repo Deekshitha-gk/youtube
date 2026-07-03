@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color:aliceblue;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(96, 82, 82);
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: red;
+}
+
+.search {
+  padding: 8px;
+  width: 250px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+/* Layout */
+article {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Left */
+article aside:first-child {
+  flex: 2;
+}
+
+/* Right */
+article aside:last-child {
+  flex: 1;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+/* Video */
+video {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+/* Cards */
+.video-card {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  background: #181818;
+}
+
+.video-card:hover {
+  background-color: #2a2a2a;
+  transform: scale(1.03);
+}
+
+/* Selected */
+.video-card.active {
+  border: 2px solid red;
+}
+
+/* Thumbnail */
+.thumbnail {
+  position: relative;
+}
+
+.thumbnail img {
+  width: 120px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+/* Duration */
+.duration {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: black;
+  color: white;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+/* Info */
+.video-info h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.video-info p {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* Live */
+.live {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* Scrollbar */
+aside:last-child::-webkit-scrollbar {
+  width: 6px;
+}
+
+aside:last-child::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}

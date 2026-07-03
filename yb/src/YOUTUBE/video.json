@@ -1,0 +1,43 @@
+[
+  {
+    "id": "1",
+    "title": "Big Buck Bunny",
+    "thumbnailUrl": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg",
+    "duration": "9:56",
+    "views": "25M views",
+    "author": "Blender",
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "isLive": false
+  },
+  {
+    "id": "2",
+    "title": "Sample Nature Video",
+    "thumbnailUrl": "https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg",
+    "duration": "2:30",
+    "views": "10M views",
+    "author": "Nature Channel",
+    "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+    "isLive": true
+  },
+  {
+    "id": "3",
+    "title": "Small Demo Video",
+    "thumbnailUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+    "duration": "1:20",
+    "views": "5M views",
+    "author": "Demo Studio",
+    "videoUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+    "isLive": false
+  },
+  {
+    "id": "4",
+    "title": "Flower Slow Motion",
+    "thumbnailUrl": "https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg",
+    "duration": "0:30",
+    "views": "3M views",
+    "author": "MDN",
+    "videoUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm",
+    "isLive": true
+  }
+  
+]
