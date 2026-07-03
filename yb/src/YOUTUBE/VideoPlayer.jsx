@@ -1,15 +1,4 @@
-// import React from 'react'
 
-// const VideoPlayer = ({vid}) => {
-//   return (
-//     <div>
-//       <video controls autoPlay src={vid}></video>
-
-//     </div>
-//   )
-// }
-
-// export default VideoPlayer
 
 
 
